@@ -1,0 +1,1 @@
+import{r as e,c as r,j as n}from"./index-CkH1TajL.js";const u=({children:s})=>{const[i,t]=e.useState(!1),o=r();return e.useEffect(()=>{t(!1);const a=setTimeout(()=>{t(!0)},50);return()=>clearTimeout(a)},[o]),n.jsx("div",{style:{opacity:i?1:0,transition:"opacity 0.4s ease",width:"100%",height:"100%",overflow:"hidden",margin:"0",padding:"0"},children:s})};export{u as P};
